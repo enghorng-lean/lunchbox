@@ -19,4 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::apiResource('foods', 'API\FoodController');
 Route::apiResource('schedules', 'API\FoodScheduleController');
+Route::apiResource('schedule-details','API\FoodScheduleDetailController');
 
